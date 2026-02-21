@@ -18,18 +18,40 @@ function isEven(num : number) : boolean {
 
 
 //interface
-
-
-interface User {
-    name : string,
-    age : number,
-    address : {
-        city: string,
-        country : string,
-        pincode : number
-    }
+interface Address {
+    city : string;
+    country : string;
+    pincode:  number;
+    houseNumber ? : string
 }
 
+interface User {
+    name : string;
+    age : number;
+    // address ? : {  // ? defines it is optional we can put or not
+    //     city ? : string,
+    //     country  ? : string,
+    //     pincode ? : number
+    // }
+    address : Address
+
+}
+
+interface office {
+    address : Address
+}
+
+
+let user2 : User = {
+    name : "raman",
+    age : 22,
+    address : {
+        city: "Bihar",
+        country : "Japan",
+        pincode: 415236
+    }
+   
+}
 
 
 let user : User  = {
