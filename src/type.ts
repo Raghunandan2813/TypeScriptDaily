@@ -3,8 +3,8 @@
 function sum(a: number, b:number) : number{
     return a+b
 }
-let ans = sum(1,2);
-console.log(ans)
+let result = sum(1,2);
+console.log(result)
 
 
 
