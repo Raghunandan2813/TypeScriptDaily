@@ -4,9 +4,9 @@
 
  let apiRequestStatus : 'pending' | 'success' | 'error' = 'pending'
 
- let airlineSeat : 'aisle' | 'window' | 'middle' = 'asile'
+ //let airlineSeat : 'aisle' | 'window' | 'middle' = 'asile'
 
- airlineSeat = 'aisle'
+ //airlineSeat = 'aisle'
 
  const orders = ['12' , '20', '42']
 
@@ -19,7 +19,7 @@
     }
  }
 
- currentorder = 42;
+ //currentorder = 42;
  console.log(currentorder)
 
 
