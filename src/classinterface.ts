@@ -22,5 +22,17 @@ let student : Student ={
 }
 
 function isLegal(student : Student) : boolean{
-    return student.Age>18;
+    if(student.Age>18){
+        return true;
+    }else{
+        return false;
+    }
+}
+
+
+const ans = isLegal(student);
+if(ans){
+    console.log("I am legal")
+}else{
+    console.log("I am not illegal")
 }
